@@ -1,33 +1,33 @@
-Given a number N reverse the number and print it.
+# Given a number N reverse the number and print it.
 
-Example 1: Input: N = 123 Output: 321 Explanation: The reverse of 123 is 321
+# Example 1: Input: N = 123 Output: 321 Explanation: The reverse of 123 is 321
 
-Example 2: Input: N = 234 Output: 432 Explanation: The reverse of 234 is 432
+# Example 2: Input: N = 234 Output: 432 Explanation: The reverse of 234 is 432
 
-Input Format
+# Input Format
 
-123
+# 123
 
-Constraints
+# Constraints
 
-N <= 1000
+# N <= 1000
 
-Output Format
+# Output Format
 
-321
+# 321
 
-Sample Input 0
+# Sample Input 0
 
-123
-Sample Output 0
+# 123
+# Sample Output 0
 
-321
-Sample Input 1
+# 321
+# Sample Input 1
 
-2341
-Sample Output 1
+# 2341
+# Sample Output 1
 
-1432
+# 1432
 
 
 solution:
@@ -58,36 +58,36 @@ public class Solution {
 --------------------------------------------------------------------------------------------------------------------------
 
 2)
-Given an integer N, write a program to count the number of digits in N.
+# Given an integer N, write a program to count the number of digits in N.
 
-Input Format
+# Input Format
 
-Example 1: Input0: N = 12345
+# Example 1: Input0: N = 12345
 
-Example 2: Input1: N = 8394
+# Example 2: Input1: N = 8394
 
-Constraints
+# Constraints
 
-n <= 10000
+# n <= 10000
 
-Output Format
+# Output Format
 
-Output0: 5 Explanation: N has 5 digits
+# Output0: 5 Explanation: N has 5 digits
 
-Output1: 4 Explanation: N has 4 digits
+# Output1: 4 Explanation: N has 4 digits
 
-Sample Input 0
+# Sample Input 0
 
-12345
-Sample Output 0
+# 12345
+# Sample Output 0
 
-5
-Sample Input 1
+# 5
+# Sample Input 1
 
-876349
-Sample Output 1
+# 876349
+# Sample Output 1
 
-6
+# 6
 
 
 solution:
