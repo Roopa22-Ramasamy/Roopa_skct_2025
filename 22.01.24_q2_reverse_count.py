@@ -47,9 +47,9 @@ public class Solution {
         int rev = 0;
         while(n>0)
         {
-            int rem = n%10;
+            int rem = n%10;   //last digit
             rev = rev*10+rem;
-            n = n/10;
+            n = n/10;    //removes last digit
         }
         System.out.print(rev);
     }
@@ -107,7 +107,7 @@ public class Solution {
         int count = 0;
         while(n>0)
         {
-             n = n/10;
+             n = n/10;   //removes last digit
             count++;
         }
         System.out.print(count);
