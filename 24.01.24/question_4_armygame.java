@@ -44,6 +44,7 @@
 
 solution:
 
+
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -68,9 +69,25 @@ class Result {
      */
 
     public static int gameWithCells(int n, int m) {
-    // Write your code here
+        int counter = 0;
+        int ncount = 0;
+        if(m%2!=0)
+        {
+            counter = (m/2)+1;
+        }else{
+            counter = (m/2);
+        }
+        if (n>2 && n%2!=0)
+        {
+            ncount = (n/2) + 1;
+            counter = counter * ncount;
+        }else if(n>2 && n%2==0){
+            ncount = n/2;
+            counter = counter * ncount;
+        }
+        return counter;
 
-    }
+        }
 
 }
 
@@ -94,4 +111,3 @@ public class Solution {
         bufferedWriter.close();
     }
 }
-
